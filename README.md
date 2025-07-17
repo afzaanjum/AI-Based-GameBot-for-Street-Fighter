@@ -1,4 +1,4 @@
-### Game Bot – AI Project (Spring 2025)
+## Game Bot – AI Project (Spring 2025)
 
 In this project we had to design a game bot for Street Fighter Game and we had to use MLP model for training.
 
@@ -35,13 +35,13 @@ In this project we had to design a game bot for Street Fighter Game and we had t
 
 ## System Requirements
  
-Operating System: Windows 7 or above (64-bit)
+* Operating System: Windows 7 or above (64-bit)
 
-Python Version: 3.6.3 or later
+* Python Version: 3.6.3 or later
 
-Emulator: BizHawk Emulator (EmuHawk)
+* Emulator: BizHawk Emulator (EmuHawk)
 
-ROM File: Street Fighter II Turbo (U).smc
+* ROM File: Street Fighter II Turbo (U).smc
 
 
 ## Python Dependencies
@@ -55,50 +55,50 @@ You may add tensorflow or torch if you're using deep learning.
 
 ## How to Run the Bot
 
-Download and Extract API
+1. Download and Extract API
 
-Extract contents into a folder.
+2. Extract contents into a folder.
 
-Launch the Emulator
+3. Launch the Emulator
 
-Run EmuHawk.exe from the single-player or two-player folder.
+4. Run EmuHawk.exe from the single-player or two-player folder.
 
-File → Open ROM → Load Street Fighter II Turbo (U).smc.
+5. File → Open ROM → Load Street Fighter II Turbo (U).smc.
 
-Open Toolbox
+6. Open Toolbox
 
-Tools → Tool Box (or press Shift + T)
+7. Tools → Tool Box (or press Shift + T)
 
-Run the Python Bot
+8. Run the Python Bot
 
-Open CMD in the folder where your project files are.
+9. Open CMD in the folder where your project files are.
 
-Run:
+    Run:
 
-### python controller.py 1
+     ### python controller.py 1
 
-Use 1 for Player 1 and 2 for Player 2.
+    Use 1 for Player 1 and 2 for Player 2.
 
 
 ## Game Controls
 
-After execution, go to the game and select your character in Normal Mode.
+1. After execution, go to the game and select your character in Normal Mode.
 
-Use emulator settings to configure/select controllers if needed.
+2. Use emulator settings to configure/select controllers if needed.
 
 
 ## Establish Connection
 
-In EmuHawk, click the Gyroscope Bot icon (second icon on the top row).
+* In EmuHawk, click the Gyroscope Bot icon (second icon on the top row).
 
-You should see CONNECTED SUCCESSFULLY in the terminal.
+* You should see CONNECTED SUCCESSFULLY in the terminal.
 
 
 ## Gameplay
 
-The game bot will control the character using your ML/DL logic.
+* The game bot will control the character using your ML/DL logic.
 
-The program stops after one round – rerun as needed.
+* The program stops after one round – rerun as needed.
 
 
 ## AI/ML Implementation
@@ -116,8 +116,8 @@ Model trained on recorded dataset from actual gameplay (game_log.csv).
 
 ## Notes
 
-Make sure the emulator is not minimized or in the background when running the bot.
+* Make sure the emulator is not minimized or in the background when running the bot.
 
-Always run the emulator before the bot.
+* Always run the emulator before the bot.
 
-The bot must be able to play with any random character, so generalization is crucial.
+* The bot must be able to play with any random character, so generalization is crucial.
