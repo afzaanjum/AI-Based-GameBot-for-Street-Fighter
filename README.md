@@ -2,9 +2,9 @@
 
 In this project we had to design a game bot for Street Fighter Game and we had to use MLP model for training.
 
-Project Folder Structure
+## Project Folder Structure
 
-PythonAPI/
+### PythonAPI/
 │
 ├── pycache/ # Compiled Python files
 
@@ -33,7 +33,7 @@ PythonAPI/
 └── README.md # This file
 
 
- System Requirements
+## System Requirements
  
 Operating System: Windows 7 or above (64-bit)
 
@@ -44,30 +44,26 @@ Emulator: BizHawk Emulator (EmuHawk)
 ROM File: Street Fighter II Turbo (U).smc
 
 
- Python Dependencies
+## Python Dependencies
 
 Install the following Python packages:
 
-pip install numpy pandas scikit-learn joblib
+### pip install numpy pandas scikit-learn joblib
 
 You may add tensorflow or torch if you're using deep learning.
 
 
-How to Run the Bot
-
-Step-by-Step Instructions
+## How to Run the Bot
 
 Download and Extract API
 
 Extract contents into a folder.
-
 
 Launch the Emulator
 
 Run EmuHawk.exe from the single-player or two-player folder.
 
 File → Open ROM → Load Street Fighter II Turbo (U).smc.
-
 
 Open Toolbox
 
@@ -77,40 +73,39 @@ Run the Python Bot
 
 Open CMD in the folder where your project files are.
 
-
 Run:
 
-python controller.py 1
+### python controller.py 1
 
 Use 1 for Player 1 and 2 for Player 2.
 
 
-Game Controls
+## Game Controls
 
 After execution, go to the game and select your character in Normal Mode.
 
 Use emulator settings to configure/select controllers if needed.
 
 
-Establish Connection
+## Establish Connection
 
 In EmuHawk, click the Gyroscope Bot icon (second icon on the top row).
 
 You should see CONNECTED SUCCESSFULLY in the terminal.
 
 
-Gameplay
+## Gameplay
 
 The game bot will control the character using your ML/DL logic.
 
 The program stops after one round – rerun as needed.
 
 
-AI/ML Implementation
+## AI/ML Implementation
 
 The bot uses a Machine Learning / Deep Learning model to make decisions.
 
-bot.py contains:
+### bot.py contains:
 
 A modified fight() function using game state input
 
@@ -119,7 +114,7 @@ Logic to load and use trained model
 Model trained on recorded dataset from actual gameplay (game_log.csv).
 
 
- Notes
+## Notes
 
 Make sure the emulator is not minimized or in the background when running the bot.
 
