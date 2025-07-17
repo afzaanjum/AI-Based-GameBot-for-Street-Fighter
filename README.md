@@ -5,7 +5,7 @@ In this project we had to design a game bot for Street Fighter Game and we had t
 ## Project Folder Structure
 
 ### PythonAPI/
-│
+
 ├── pycache/ # Compiled Python files
 
 ├── bot.py # Main bot logic (uses trained model)
@@ -82,9 +82,9 @@ You may add tensorflow or torch if you're using deep learning.
 
 ## Game Controls
 
-1. After execution, go to the game and select your character in Normal Mode.
+* After execution, go to the game and select your character in Normal Mode.
 
-2. Use emulator settings to configure/select controllers if needed.
+* Use emulator settings to configure/select controllers if needed.
 
 
 ## Establish Connection
