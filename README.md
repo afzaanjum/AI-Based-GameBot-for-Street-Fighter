@@ -1,4 +1,4 @@
-Game Bot – AI Project (Spring 2025)
+### Game Bot – AI Project (Spring 2025)
 
 In this project we had to design a game bot for Street Fighter Game and we had to use MLP model for training.
 
